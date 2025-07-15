@@ -1,0 +1,55 @@
+.staatliches-regular {
+  font-family: "Staatliches", sans-serif;
+  font-weight: 800px;
+  font-style: normal;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+body {
+    padding: 10px 20px 25px 15px;
+  background: #2b2b58;
+background: linear-gradient(90deg,rgb(41, 41, 90) 0%, rgb(44, 44, 117) 65%);
+}
+.titulos {
+  font-family: "Staatliches";
+  font-weight: 400px;
+  font-size: 30px;
+  color: rgb(66, 126, 255);
+}
+
+h2 {
+    display:grid;
+  margin-top: 0;
+  font-family: "oswald";
+  color: rgb(241, 241, 234);
+}
+h3 {
+  font-family: "Staatliches";
+  color: rgb(66, 126, 255);
+}
+p {
+  color: rgb(241, 241, 234);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.Botonspotify {
+  font-family: "oswald";
+  color: rgb(241, 241, 234);
+}
+ul {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(241, 241, 234);
+}
+footer {
+  color: rgb(66, 126, 255);
+}
+.boton {
+  font-family: "oswald";
+  color: rgb(241, 241, 234);
+}

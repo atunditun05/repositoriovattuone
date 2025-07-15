@@ -1,0 +1,90 @@
+.arapey-regular {
+  font-family: "Arapey", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.arapey-regular-italic {
+  font-family: "Arapey", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body{
+    background-color: antiquewhite;
+}
+header{
+    display: block;
+    background-color: rgb(216, 113, 113);
+}
+a{
+    text-decoration: none;
+}
+.navbar ul{
+    display: block;
+    overflow: hidden;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navbar a{
+    font: 1em sans-serif;
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+  text-decoration: none;
+   
+}
+.navbar li{
+    float: right;
+}
+.navbar a:hover{
+    color: black;
+    background-color: rgb(136, 37, 37);
+}
+h1{color: #ffffff;
+font-family: "Arapey";
+font-size: 50px;
+}
+#menues{
+    display: flex;
+    gap: 20;
+    flex: 3;
+}
+
+.container{
+    display: flex;
+justify-content: center;
+  padding: 10px;
+height: 300px;
+  /* Border */
+  border: 2px solid black;
+  gap: 20px;
+background-color: rgb(201, 81, 111) ;
+}
+
+.receta1, .receta2, .receta3 {
+    background-color: #ffffff;
+    padding: 0px 0px 0 10px;
+display: flex;
+font-size: 20px;
+flex-direction: column;
+    height: 200px
+}
+img{
+    object-fit:cover;
+    width: 300px;
+    height: 200px;
+    margin-left: -10px;
+}
+.tortafrita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    
+}
+.pastelito{
+    max-width: fit-content;
+    max-height: fit-content;
+}
